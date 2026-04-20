@@ -1,4 +1,5 @@
-<html>
+<!doctype html>
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -24,47 +25,53 @@
   </head>
 
   <body>
-    <section class="main">
+    <section id="inicio" class="main">
       <div class="center">
         <div class="menu">
           <div class="logo-menu">
-            <a href=""><img src="images/logo.svg" /></a>
+            <a href="#inicio"><img src="images/logo.svg" alt="Logo" /></a>
           </div>
+
           <div class="items-menu">
-            <a href="#">Início</a>
-            <a href="#">Por que nós?</a>
-            <a href="#">Depoimentos</a>
-            <a class="contact-btn" href="#">Entre em Contato</a>
+            <a href="#inicio">Início</a>
+            <a href="#porque-nos">Por que nós?</a>
+            <a href="#depoimentos">Depoimentos</a>
+            <a class="contact-btn" href="#contato">Entre em Contato</a>
+          </div>
+
+          <div class="items-menu-mobile">
+            <button class="menu-toggle" type="button" aria-label="Abrir menu">
+              <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <div class="menu-mobile">
+              <a href="#inicio">Início</a>
+              <a href="#porque-nos">Por que nós?</a>
+              <a href="#depoimentos">Depoimentos</a>
+              <a href="#contato">Entre em Contato</a>
+            </div>
           </div>
         </div>
-        <!--menu-->
 
         <div class="mockup">
           <h1>Promova experiências aos seus clientes</h1>
-          <br />
           <p>E veja resultados expressivos dia após dia</p>
-          <br />
-          <img src="images/mockup.svg" />
+          <img src="images/mockup.svg" alt="Mockup" />
         </div>
-        <!--mockup-->
       </div>
-      <!--center-->
     </section>
-    <!--main-->
 
     <section class="marcas">
       <div class="center">
-        <img src="images/LOGO1.png" />
-        <img src="images/LOGO2.png" />
-        <img src="images/LOGO3.png" />
-        <img src="images/LOGO4.png" />
-        <img src="images/LOGO5.png" />
+        <img src="images/LOGO1.png" alt="Marca 1" />
+        <img src="images/LOGO2.png" alt="Marca 2" />
+        <img src="images/LOGO3.png" alt="Marca 3" />
+        <img src="images/LOGO4.png" alt="Marca 4" />
+        <img src="images/LOGO5.png" alt="Marca 5" />
       </div>
-      <!--center-->
     </section>
-    <!--marcas-->
 
-    <section class="porque-nos">
+    <section id="porque-nos" class="porque-nos">
       <div class="center">
         <h2>Por Que Nós?</h2>
         <p>
@@ -74,7 +81,7 @@
 
         <div class="diferenciais">
           <div class="box-diferenciais">
-            <img src="images/ICONE1.png" />
+            <img src="images/ICONE1.png" alt="Planejamento impecável" />
             <h3>Planejamento impecável</h3>
             <p>
               Conte com a Agência Bold como sua parceira no planejamento de seus
@@ -82,8 +89,9 @@
               altamente qualificados estão preparados para qualquer desafio.
             </p>
           </div>
+
           <div class="box-diferenciais">
-            <img src="images/ICONE2.png" />
+            <img src="images/ICONE2.png" alt="Pague pelos resultados" />
             <h3>Pague pelos resultados</h3>
             <p>
               Aqui você paga de acordo com o retorno que ganha em cada campanha.
@@ -91,63 +99,208 @@
               Entre em contato e vamos conversar sobre sua necessidade.
             </p>
           </div>
+
           <div class="box-diferenciais">
-            <img src="images/ICONE3.png" />
+            <img src="images/ICONE3.png" alt="Suporte e acompanhamento" />
             <h3>Suporte e acompanhamento</h3>
             <p>
               Mesmo após terminarmos nosso projeto ou estratégia, nós da Agência
-              Bold acompanharemos os futuros desdobramentos e resultados
+              Bold acompanharemos os futuros desdobramentos e resultados,
               oferecendo todo suporte possível para você e sua equipe.
             </p>
           </div>
         </div>
-        <!--diferenciais-->
       </div>
-      <!--center-->
     </section>
-    <!--porque-nos-->
 
     <section class="cta">
       <h2>Vamos começar seu projeto?</h2>
-      <h4>Fale com um consultor e tire sua idéia do papel.</h4>
-      <a href="/contato">Entrar em Contato</a>
+      <h4>Fale com um consultor e tire sua ideia do papel.</h4>
+      <a href="#contato">Entrar em Contato</a>
     </section>
-    <!--contato-->
 
     <section class="beneficios">
-      <div style="max-width: 1280px" class="center">
+      <div class="center beneficios-center">
         <div class="lista-beneficios">
           <h1>Benefícios para você</h1>
-          <br />
 
           <p>
-            <img src="images/checklist.png" /><span
-              >Garantia de resultados, pague de acordo com o desempenho do seu
-              projeto ou campanha.</span
-            >
-          </p>
-          <p>
-            <img src="images/checklist.png" /><span
-              >Equipe qualificada. Nossos profissionais possuem vasta
-              experiência nacional e no exterior.</span
-            >
-          </p>
-          <p>
-            <img src="images/checklist.png" /><span
-              >Acreditamos que trabalhos criativos são os que mais se destacam
-              em meio a multidão. Saia do feijão com arroz.</span
-            >
+            <img src="images/checklist.png" alt="Check" />
+            <span>
+              Garantia de resultados, pague de acordo com o desempenho do seu
+              projeto ou campanha.
+            </span>
           </p>
 
-          <a href="/contato">Entrar em Contato</a>
+          <p>
+            <img src="images/checklist.png" alt="Check" />
+            <span>
+              Equipe qualificada. Nossos profissionais possuem vasta experiência
+              nacional e no exterior.
+            </span>
+          </p>
+
+          <p>
+            <img src="images/checklist.png" alt="Check" />
+            <span>
+              Acreditamos que trabalhos criativos são os que mais se destacam em
+              meio à multidão. Saia do feijão com arroz.
+            </span>
+          </p>
+
+          <a href="#contato">Entrar em Contato</a>
         </div>
 
         <div class="img-beneficios">
-          <img src="images/IMAGEM1.png" />
+          <img src="images/IMAGEM1.png" alt="Imagem de benefícios" />
         </div>
       </div>
-      <!--center-->
     </section>
-    <!--beneficios-->
+
+    <section id="depoimentos" class="depoimentos">
+      <h1>Depoimentos</h1>
+
+      <div class="center center-column">
+        <div class="container-slider">
+          <div class="container-slider-single">
+            <img src="images/DEPOIMENTO1.png" alt="Foto do cliente" />
+            <h3>Miriam Souza</h3>
+            <p>
+              O trabalho da Agência Bold foi fundamental para o nosso
+              posicionamento e nossas estratégias. Juntos tivemos excelentes
+              resultados e nossos clientes ficaram surpresos com a qualidade.
+            </p>
+            <img src="images/RATE.svg" alt="Avaliação" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="images/DEPOIMENTO1.png" alt="Foto do cliente" />
+            <h3>Miriam Souza</h3>
+            <p>
+              O trabalho da Agência Bold foi fundamental para o nosso
+              posicionamento e nossas estratégias. Juntos tivemos excelentes
+              resultados e nossos clientes ficaram surpresos com a qualidade.
+            </p>
+            <img src="images/RATE.svg" alt="Avaliação" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="images/DEPOIMENTO1.png" alt="Foto do cliente" />
+            <h3>Miriam Souza</h3>
+            <p>
+              O trabalho da Agência Bold foi fundamental para o nosso
+              posicionamento e nossas estratégias. Juntos tivemos excelentes
+              resultados e nossos clientes ficaram surpresos com a qualidade.
+            </p>
+            <img src="images/RATE.svg" alt="Avaliação" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="images/DEPOIMENTO1.png" alt="Foto do cliente" />
+            <h3>Miriam Souza</h3>
+            <p>
+              O trabalho da Agência Bold foi fundamental para o nosso
+              posicionamento e nossas estratégias. Juntos tivemos excelentes
+              resultados e nossos clientes ficaram surpresos com a qualidade.
+            </p>
+            <img src="images/RATE.svg" alt="Avaliação" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="images/DEPOIMENTO1.png" alt="Foto do cliente" />
+            <h3>Miriam Souza</h3>
+            <p>
+              O trabalho da Agência Bold foi fundamental para o nosso
+              posicionamento e nossas estratégias. Juntos tivemos excelentes
+              resultados e nossos clientes ficaram surpresos com a qualidade.
+            </p>
+            <img src="images/RATE.svg" alt="Avaliação" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="images/DEPOIMENTO1.png" alt="Foto do cliente" />
+            <h3>Miriam Souza</h3>
+            <p>
+              O trabalho da Agência Bold foi fundamental para o nosso
+              posicionamento e nossas estratégias. Juntos tivemos excelentes
+              resultados e nossos clientes ficaram surpresos com a qualidade.
+            </p>
+            <img src="images/RATE.svg" alt="Avaliação" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="contato">
+      <h1>Entre em Contato</h1>
+
+      <div class="center contato-center">
+        <form method="post">
+          <input type="text" placeholder="Seu nome..." />
+          <input type="email" placeholder="Seu e-mail..." />
+          <textarea placeholder="Sua mensagem..."></textarea>
+          <input type="submit" name="acao" value="Enviar!" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="center footer-center">
+        <div class="text-footer">
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="items-menu footer-menu">
+          <a href="#inicio">Início</a>
+          <a href="#porque-nos">Por que nós?</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a class="contact-btn" href="#contato">Entre em Contato</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="jquery.js"></script>
+    <script src="slick.min.js"></script>
+
+    <script>
+      if (window.jQuery && document.querySelector(".container-slider")) {
+        $(".container-slider").slick({
+          dots: true,
+          arrows: false,
+          speed: 1000,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          pauseOnHover: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      }
+    </script>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const menuMobile = document.querySelector(".menu-mobile");
+
+      if (menuToggle && menuMobile) {
+        menuToggle.addEventListener("click", () => {
+          menuMobile.classList.toggle("show");
+        });
+
+        menuMobile.querySelectorAll("a").forEach((link) => {
+          link.addEventListener("click", () => {
+            menuMobile.classList.remove("show");
+          });
+        });
+      }
+    </script>
   </body>
 </html>
